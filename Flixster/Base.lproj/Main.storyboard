@@ -43,7 +43,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S6q-ni-fnZ">
-                                                    <rect key="frame" x="148" y="42" width="247" height="91"/>
+                                                    <rect key="frame" x="148" y="42" width="200" height="91"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -54,7 +54,7 @@
                                                 <constraint firstItem="rlY-NH-g27" firstAttribute="top" secondItem="EKc-jp-Rej" secondAttribute="top" id="151-eq-egA"/>
                                                 <constraint firstItem="aqq-aX-7fo" firstAttribute="leading" secondItem="rlY-NH-g27" secondAttribute="trailing" constant="8" id="Cb0-GW-FIE"/>
                                                 <constraint firstItem="S6q-ni-fnZ" firstAttribute="top" secondItem="aqq-aX-7fo" secondAttribute="bottom" constant="8" id="Uhi-gv-1CL"/>
-                                                <constraint firstAttribute="trailing" secondItem="S6q-ni-fnZ" secondAttribute="trailing" constant="19" id="XaB-xu-Esv"/>
+                                                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="S6q-ni-fnZ" secondAttribute="trailing" constant="19" id="XaB-xu-Esv"/>
                                                 <constraint firstItem="S6q-ni-fnZ" firstAttribute="leading" secondItem="rlY-NH-g27" secondAttribute="trailing" constant="8" id="bSV-9n-ZBC"/>
                                                 <constraint firstAttribute="bottom" secondItem="rlY-NH-g27" secondAttribute="bottom" id="bkF-mg-yvO"/>
                                                 <constraint firstItem="rlY-NH-g27" firstAttribute="leading" secondItem="EKc-jp-Rej" secondAttribute="leading" id="fsU-rI-3eE"/>
